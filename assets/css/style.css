@@ -4646,7 +4646,7 @@ button {
 ================================================== */
 /* slider section - start */
 .agency-default-carousel .owl-stage-outer {
-  padding-bottom: 210px;
+  padding-bottom: 3.6rem;
 }
 .agency-default-carousel .item {
   min-height: 800px;
@@ -10940,6 +10940,11 @@ button {
   #agency-default-carousel{
     margin-bottom: -20%;
   }
+
+  #about-section{
+    margin-bottom: -9rem;
+  }
+ 
   #service-section{
     margin-top: -41%;
   }
@@ -10952,6 +10957,12 @@ button {
     padding-bottom: -3rem !important;
   }
   
+  .fixclr12{
+    margin-bottom: 2rem !important;
+  }
+  .fixclr123{
+    margin-bottom: -9rem ;
+  }
   #section-head{
     display: flex;
     justify-content: center;
@@ -10972,13 +10983,46 @@ button {
     margin-top: -27%;
   }
   #caset12{
-    margin-top: -5rem;
+   
     margin-bottom: -2rem;
 
+  }
+  .imagsht{
+    margin-top: 5rem;
   }
   #testimonial-carousel-2{
     margin-bottom: -4rem;
   }
+  .atb12{
+  font-size: 2rem !important;
+  margin-left: 0.8rem;
+  background-position-y: -88% !important;
+  background-position-x: 111% !important;
+ 
+ 
+}
+#atb{
+  font-size: 1rem !important ;
+}
+#fixclr1234 h2{
+  font-size: 20px !important;
+}
+#fixclr1234 p{
+  font-size: 18px !important;
+  font-weight: 200;
+}
+.form-wrap{
+  margin-bottom: -3rem !important;
+}
+#contact-section{
+  margin-bottom: 3rem !important;
+}
+.brand-logo{
+      display: flex;
+      justify-content: center;
+      margin-left: -27px;
+  
+}
 
 }
 /* ====================================================================================================
