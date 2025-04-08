@@ -11140,4 +11140,18 @@ frequent asked questions - end
   }
 
 
-  
+  #atb h1{
+    background-image: url( "images/abot\ 2.png");
+    background-position-y: -46%;
+    background-position-x: 67%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+    font-size: 15rem;        
+    font-weight: bold;
+    text-transform: uppercase;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+      
+  }
