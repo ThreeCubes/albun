@@ -11222,6 +11222,41 @@ display: contents;
 }
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 991px) {
- 
+@media (min-width: 768px) and (max-width: 992px) {
+ #tabhed{
+  font-size: 30px;
+ }
+ #tabpd{
+  font-size: 20px !important;
+ }
+ #tababt{
+  margin-top: 32px
+ }
+ #tababt1{
+  width: 25rem;
+ }
+ #tabprd{
+  margin-left: 1.9rem;
+ }
+ #tabprd12{
+  justify-content: center;
+ }
+ #tabprd123{
+ justify-content: center;
+ }
+ .wcutxt{
+  display: none;
+ }
+ #tababt101{
+  width: 22rem;
+ }
+ #tabcont{
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  text-align: center;
+ }
+ #fottxt{
+  display: none;
+ }
+
 }
