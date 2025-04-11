@@ -130,7 +130,7 @@ button:focus {
 
 img {
   height: auto;
-  max-width: 130%;
+  max-width: 100%;
 }
 
 .item-image {
@@ -647,7 +647,8 @@ strong, span, small, label, i {
 }
 
 .sec-ptb-100 {
-  padding: 0px 0px 0px 0px;
+
+  padding: 50px 0px 50px 0px;
 }
 
 .mrl--60 {
@@ -731,6 +732,43 @@ strong, span, small, label, i {
 .btn:hover {
   color: #000000;
 }
+
+
+.btn12 {
+  z-index: 1;
+  height: 45px;
+  border: none;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 45px;
+  padding: 0px 30px;
+  border-radius: 0px;
+  position: relative;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  transition: 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.btn12:before {
+  top: 0px;
+  width: 0px;
+  left: auto;
+  right: 0px;
+  z-index: -1;
+  bottom: 0px;
+  content: "";
+  position: absolute;
+  background: #000000;
+  transition: width 0.2s linear;
+}
+.btn12:hover {
+  color: #ffffff;
+  background-color: #000000 ;
+  border: 2px solid #ffffff;
+}
+
+
 .btn:hover:before {
   left: 0px;
   width: 100%;
@@ -2453,7 +2491,7 @@ button {
   margin-bottom: 100px;
 }
 .about-list-layout:last-child {
-  margin-bottom: 9rem !important;
+  margin-bottom: 0px !important;
 }
 .about-list-layout .item-image > img {
   width: 100%;
@@ -2533,7 +2571,7 @@ button {
   padding: 0px 0px 0px 100px;
 }
 .about-list-layout:nth-child(odd) .item-content .item-title {
-  margin: 0rem 0px 0px -200px;
+  margin: 0px 0px 50px -200px;
 }
 .about-list-layout:nth-child(odd) .item-content .about-service .service-icon {
   float: left;
@@ -2916,7 +2954,6 @@ button {
 }
 .service-default p {
   font-size: 13px;
-  text-align: justify;
 }
 
 .text-white .service-default .item-title {
@@ -4097,7 +4134,7 @@ button {
   content: "";
   line-height: 1;
   position: absolute;
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .details-section .comment-form.text-center .form-title span {
   padding-bottom: 30px;
@@ -4646,7 +4683,7 @@ button {
 ================================================== */
 /* slider section - start */
 .agency-default-carousel .owl-stage-outer {
-  padding-bottom: 3.6rem;
+  padding-bottom: 210px;
 }
 .agency-default-carousel .item {
   min-height: 800px;
@@ -4669,7 +4706,7 @@ button {
   margin-bottom: 40px;
 }
 .agency-default-carousel .item p {
-  font-size: 22px;
+  font-size: 16px;
   margin-bottom: 60px;
 }
 .agency-default-carousel .item .slider-image {
@@ -5044,9 +5081,9 @@ button {
 /* home reset - start */
 .home-personal .section-title .title-text {
   position: relative;
-
+  padding-left: 200px;
 }
-/* .home-personal .section-title .title-text:before {
+.home-personal .section-title .title-text:before {
   top: 18px;
   left: 0px;
   content: "";
@@ -5054,9 +5091,14 @@ button {
   width: 170px;
   position: absolute;
   background-color: #000000;
-} */
+}
 .home-personal .section-title.size-increase .title-text:before {
   top: 24px;
+}
+.section-title hr {
+  height: 3px;
+  background-color: #000; /* or any color you want */
+  border: none;
 }
 
 /* home reset - end */
@@ -10930,105 +10972,9 @@ button {
 
   /* home - end */
 }
-@media (max-width: 768px) {
-  .brand-logo{
-    text-align: left !important;
-  }
-  .agency-default-carousel .owl-dots{
-    display: none;
-  }
-  #agency-default-carousel{
-    margin-bottom: -20%;
-  }
-
-  #about-section{
-    margin-bottom: -9rem;
-  }
- 
-  #service-section{
-    margin-top: -41%;
-  }
-  .section-title{
-    margin-top: -8%;
- 
-  }
-  #sect-cont{
-    margin-top: 6%;
-    padding-bottom: -3rem !important;
-  }
-  
-  .fixclr12{
-    margin-bottom: 2rem !important;
-  }
-  .fixclr123{
-    margin-bottom: -9rem ;
-  }
-  #section-head{
-    display: flex;
-    justify-content: center;
-  }
-  .set123{
-    margin-top: 0% !important;
-  }
-  #tit-why{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 14%;
-
-  }
-  #wat-abt{
-    text-align: center;
-  }
-  #testimonial-section{
-    margin-top: -27%;
-  }
-  #caset12{
-   
-    margin-bottom: -2rem;
-
-  }
-  .imagsht{
-    margin-top: 5rem;
-  }
-  #testimonial-carousel-2{
-    margin-bottom: -4rem;
-  }
-  .atb12{
-  font-size: 2rem !important;
-  margin-left: 0.8rem;
-  background-position-y: -88% !important;
-  background-position-x: 111% !important;
- 
- 
-}
-#atb{
-  font-size: 1rem !important ;
-}
-#fixclr1234 h2{
-  font-size: 20px !important;
-}
-#fixclr1234 p{
-  font-size: 18px !important;
-  font-weight: 200;
-}
-.form-wrap{
-  margin-bottom: -3rem !important;
-}
-#contact-section{
-  margin-bottom: 3rem !important;
-}
-#fixclr1010{
-      display: flex;
-      justify-content: center;
-      margin-left: -27px;
-  
-}
-
-}
 /* ====================================================================================================
 9 - media screen and (max-width: 320px) - end
 ==================================================================================================== */
-
 
 /* ====================================================================================================
 frequent asked questions - start
@@ -11096,106 +11042,138 @@ input[type="checkbox"]:checked ~ .faq-answer {
 }
 
 
+
+.image-hover {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), 0 1px 5px rgba(128, 128, 128, 0.3); /* Black & grey shadow */
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.image-hover img {
+  transition: transform 0.4s ease;
+  display: block;
+}
+
+.image-hover .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.4s ease;
+}
+
+.image-hover:hover img,
+.image-hover:active img {
+  transform: scale(1.05);
+}
+
+.image-hover:hover .overlay,
+.image-hover:active .overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
 /* ====================================================================================================
 frequent asked questions - end
 ==================================================================================================== */
 
-   /* Background Image */
-   .service-default {
-    position: relative;
-    padding: 2rem;
-    background: #F2F2F2; /* Light background */
-    border-radius: 10px;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
-  }
-   .img10::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%; /* Start off-screen */
-    width: 100%;
-    height: 100%;
-    background-image: url('images/HEMZ5987\ copy.jpg'); /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
-    opacity: 0.3; /* Slight transparency */
-    transition: all 0.5s ease-in-out;
-  }
-  .img20::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%; /* Start off-screen */
-    width: 100%;
-    height: 100%;
-    background-image: url('images/PS654145\ copy.jpg'); /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
-    opacity: 0.3; /* Slight transparency */
-    transition: all 0.5s ease-in-out;
-  }
-  .img30::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%; /* Start off-screen */
-    width: 100%;
-    height: 100%;
-    background-image: url('images/HEMZ6095\ copy.jpg'); /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
-    opacity: 0.5; /* Slight transparency */
-    transition: all 0.5s ease-in-out;
-  }
-  .img40::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%; /* Start off-screen */
-    width: 100%;
-    height: 100%;
-    background-image: url('images/HEMZ8737\ copy.jpg'); /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
-    opacity: 0.3; /* Slight transparency */
-    transition: all 0.5s ease-in-out;
-  }
-  .img50::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -100%; /* Start off-screen */
-    width: 100%;
-    height: 100%;
-    background-image: url('images/PS654256\ copy.jpg'); /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
-    opacity: 0.3; /* Slight transparency */
-    transition: all 0.5s ease-in-out;
-  }
- 
+@media (max-width: 768px) {
 
-  /* Hover Effect */
-  #showimag:hover .service-default::before,
-  #showimag:focus .service-default::before,
-  #showimag:active .service-default::before {
-    left: 0; /* Move into view */
+  #slider-section{
+    margin-top: 3rem;
+
   }
 
+  #slider-section .date-text{
+    margin-bottom: 30px;
 
-  #atb h1{
-    background-image: url( "images/abot\ 2.png");
-    background-position-y: -46%;
-    background-position-x: 67%;
-    background-repeat: repeat;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
- 
-    font-size: 15rem;        
-    font-weight: bold;
-    text-transform: uppercase;
-    font-weight: 800;
-    -webkit-font-smoothing: antialiased;
-      
   }
+
+}
+
+.service-default {
+  position: relative;
+  padding: 2rem;
+  background: #F2F2F2; /* Light background */
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.img10::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start off-screen */
+  width: 100%;
+  height: 100%;
+  background-image: url('img/HEMZ6095\ copy.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* Slight transparency */
+  transition: all 0.3s ease-in-out;
+}
+.img20::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start off-screen */
+  width: 100%;
+  height: 100%;
+  background-image: url('img/HEMZ6103\ copy.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* Slight transparency */
+  transition: all 0.3s ease-in-out;
+}
+.img30::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start off-screen */
+  width: 100%;
+  height: 100%;
+  background-image: url('img/HEMZ6088\ copy.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; /* Slight transparency */
+  transition: all 0.3s ease-in-out;
+}
+.img40::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start off-screen */
+  width: 100%;
+  height: 100%;
+  background-image: url('img/PS654202\ copy.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* Slight transparency */
+  transition: all 0.3s ease-in-out;
+}
+.img50::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%; /* Start off-screen */
+  width: 100%;
+  height: 100%;
+  background-image: url('img/PS654293\ copy.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* Slight transparency */
+  transition: all 0.3s ease-in-out;
+}
+
+
+/* Hover Effect */
+#showimag:hover .service-default::before,
+#showimag:focus .service-default::before,
+#showimag:active .service-default::before {
+  left: 0; /* Move into view */
+}
