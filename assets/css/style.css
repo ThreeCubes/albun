@@ -11177,3 +11177,51 @@ frequent asked questions - end
 #showimag:active .service-default::before {
   left: 0; /* Move into view */
 }
+
+
+/* Mobile */
+@media (max-width: 767px) {
+#abtimg{
+  display: none ;
+}
+#abttxt{
+  text-align: center;
+}
+#abtbtn{
+  text-align: center;
+}
+.wcutxt{
+  display: none ;
+}
+.wculin{
+  display: flex;
+  justify-content: center;
+}
+.wculin h2{
+  margin-bottom: 2rem !important;
+}
+.prdtxt{
+display: contents;
+}
+#tsthed{
+  text-align: center;
+}
+.testimonial-section{
+  margin-top: -3rem;
+}
+#dettxt{
+  text-align: center;
+}
+.faq-title{
+  font-size: 27px;
+}
+#fottxt{
+  display: none;
+}
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
