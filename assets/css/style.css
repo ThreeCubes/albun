@@ -11213,7 +11213,7 @@ frequent asked questions - end
 
 
 /* Mobile */
-@media (max-width: 767px) {
+@media (max-width: 480px) {
 .faq-container{
   width: 29rem;
 }
