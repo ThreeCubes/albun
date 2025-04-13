@@ -11070,7 +11070,7 @@ input[type="radio"]:checked ~ .faq-answer {
 
   .icon {
     align-self: flex-end;
-    margin-top: 5px;
+    margin-top: -26px;
   }
 }
 
@@ -11213,6 +11213,15 @@ frequent asked questions - end
 
 
 /* Mobile */
+@media (max-width: 425px) {
+  .faq-container{
+    width: 25rem !important;
+   
+  }
+  .faq-item .icon{
+    margin-top: -2rem !important;
+  }
+}
 @media (max-width: 480px) {
 .faq-container{
   width: 29rem;
